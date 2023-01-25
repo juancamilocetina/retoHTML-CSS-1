@@ -1,0 +1,159 @@
+@font-face{
+    font-family: fuentePPC;
+    src: url(Raleway-Regular.ttf);
+}
+@font-face{
+    font-family: fuentePPC-bold;
+    src: url(Raleway-Bold.ttf);
+}
+body{
+    font-family: fuentePPC;
+}
+.card{
+    width: 500px;
+}
+
+#precios h4{
+    display: inline;
+}
+#precios {
+    display: inline;
+    position: relative;
+    left: 60px;
+    
+}
+#ahora{
+    font-family: fuentePPC-bold;
+    font-size: 22px;
+}
+#brr{
+    font-family: fuentePPC-bold;
+    font-size: 30px;
+    color: brown;
+}
+.img img{
+    border-radius: 30px;
+    position: relative;
+}
+
+.descuento{
+    position:absolute;
+    background-color: red;
+    width: 10%;
+    height: 6%;
+    top: 50px;
+    left: 373px;
+    line-height: 1px;
+    text-align: center;
+    
+}
+#textoDesc{
+    color: white;
+}
+
+.titulo{
+    position:absolute;
+    background-color: red;
+    width: 30%;
+    height: 6%;
+    border-radius: 13px;
+    top: 485px;
+    left: 50px;
+    line-height: 1px;
+    text-align: center;
+    
+}
+#texto{
+    color: white;
+}
+
+.descr{
+    font-size: 16px;
+    position: relative;
+    left:60px;
+}
+.btn{
+    background-color: red;
+    font-size: 22px;
+    font-family: fuentePPC-bold;
+    color: white;
+    width: 115px;
+    height: 40px;
+    border: 1px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.img .capa{
+    position: absolute;
+    top: 9px;
+    background-color: rgba(255, 0, 0, 0.6);
+    text-align: center;
+    width: 500px;
+    height: 500px;
+    border-radius: 30px;
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+}
+.capa p{
+    position: relative;
+    top:200px;
+    font-family: fuentePPC-bold;
+    font-size: 20px;
+    color: white;
+
+}
+
+.container .card .img:hover > .capa {
+    opacity: 1;
+    visibility: visible;
+}
+
+.card1 {
+    position: relative;
+    top: -625px;
+    left: 560px;
+}
+
+.descuento1{
+    position:absolute;
+    background-color: red;
+    width: 10%;
+    height: 6%;
+    top: 50px;
+    left: 367px;
+    line-height: 1px;
+    text-align: center;
+    
+}
+.img1 img{
+    border-radius: 30px;
+    position: relative;
+}
+.img1 .capa1{
+    position: absolute;
+    top: 0px;
+    background-color: rgba(255, 0, 0, 0.6);
+    text-align: center;
+    width: 500px;
+    height: 500px;
+    border-radius: 30px;
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+}
+.capa1 p{
+    position: relative;
+    top:200px;
+    font-family: fuentePPC-bold;
+    font-size: 20px;
+    color: white;
+
+}
+
+.container .card1 .img1:hover > .capa1 {
+    opacity: 1;
+    visibility: visible;
+}
+
