@@ -39,10 +39,9 @@ body{
 .descuento{
     position:absolute;
     background-color: red;
-    width: 10%;
-    height: 6%;
+    
     top: 50px;
-    left: 373px;
+    left: 432px;
     line-height: 1px;
     text-align: center;
     
@@ -54,8 +53,7 @@ body{
 .titulo{
     position:absolute;
     background-color: red;
-    width: 30%;
-    height: 6%;
+    
     border-radius: 13px;
     top: 485px;
     left: 50px;
@@ -119,10 +117,9 @@ body{
 .descuento1{
     position:absolute;
     background-color: red;
-    width: 10%;
-    height: 6%;
+    
     top: 50px;
-    left: 367px;
+    left: 423px;
     line-height: 1px;
     text-align: center;
     
